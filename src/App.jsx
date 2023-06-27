@@ -2,9 +2,7 @@ import React, { useState, useEffect } from 'react'
 import {
   FourZeroFourContainer,
   FourZeroFourImg,
-  FourZeroFourNavBar,
   FourZeroFourOops,
-  FourZeroFourLinks,
 } from "./styles"
 
 function App() {
@@ -18,9 +16,9 @@ function App() {
     <>
       <FourZeroFourContainer>
         <FourZeroFourOops>
-          The page is either broken or no longer developed by Pangu
+          The page is either broken or no longer availabe been developed by my Somberi Pangu <br />
         </FourZeroFourOops>
-        <FourZeroFourImg src={`/src/assets/${state}.svg`} />
+        <FourZeroFourImg src={`/assets/${state}.svg`} />
       </FourZeroFourContainer>
 
 
